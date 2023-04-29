@@ -1,11 +1,8 @@
-function sumValues(num1, num2, add) {
-    if(add){
-        const result = 0;
-        result = num1 + num2;
-        console.log('values added: ', result);
-    }
-    else return;
-    console.log('final result: ', result);
-}
-
-sumValues(10,10,true);
+let statistics = {
+    redCars: 21,
+    blueCars: 45,
+    greenCars: 12,
+    raceCars: 5,
+    blackCars: 40,
+    rareCars: 2
+};
