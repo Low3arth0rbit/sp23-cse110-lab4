@@ -1,0 +1,2 @@
+1. The bug is that the program takes the values inputted as string, not as a number. This causes the result to be concatenation of two strings instead of addition of two numbers.
+2. While there are several ways of fixing this issue, I think the most readable way of implementing the fix is to convert the string into number by using the `Number()` function. [fix](fix.PNG)
